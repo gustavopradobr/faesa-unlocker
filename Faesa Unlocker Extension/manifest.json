@@ -1,0 +1,29 @@
+{
+  "name": "FAESA Unlocker",
+  "author": "Gustavo Prado",
+  "version": "1.0",
+  "description": "Extensão para desbloquear campos bloqueados do cadastro de informações do Portal do Aluno. Criado por Gustavo Prado (@gustavo.prado.beats)",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Clique para habilitar a extensão."
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.faesa.br/*"
+      ],
+      "all_frames": true,
+      "js": ["jquery-3.6.0.min.js"],
+      "css": ["fu.style.css"]
+    }
+  ],
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
