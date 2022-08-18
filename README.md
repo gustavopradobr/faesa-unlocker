@@ -7,5 +7,5 @@ Extensão para desbloquear campos bloqueados do cadastro de informações do Por
 ### 3- Ative o modo desenvolvedor e em seguida clique em "Carregar sem compactação" e em seguida selecione a pasta extraída. <br/>
 ![](example1.webp)<br/>
 ### 4- Após entrar no Portal do Aluno, clique no ícone da extensão para habilitar, dentro da janela da extensão clique no cadeado e em seguida no elemento que queira desbloquear. <br/>
-![](example2.webp)<br/>
+![](example2b.webp)<br/>
 ### 6- Insira seus dados sem obstáculos.
